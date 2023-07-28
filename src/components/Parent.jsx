@@ -7,11 +7,11 @@ const Parent = () => {
 			<h1>Parent Component</h1>
 			<div>
 				<h2>Child Component 1</h2>
-				<button onClick={() => setSelectedOption(1)}>Option 1</button>
+				<p onClick={() => setSelectedOption(1)}>Option 1</p>
 			</div>
 			<div>
 				<h2>Child Component 2</h2>
-				<button onClick={() => setSelectedOption(2)}>Option 2</button>
+				<p onClick={() => setSelectedOption(2)}>Option 2</p>
 			</div>
 			<br />
 			<div>
