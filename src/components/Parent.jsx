@@ -7,17 +7,17 @@ const Parent = () => {
 			<h1>Parent Component</h1>
 			<div>
 				<h2>Child Component 1</h2>
-				<p onClick={() => setSelectedOption(1)}>Option 1</p>
+				<button onClick={() => setSelectedOption(1)}>Option 1</button>
 			</div>
 			<div>
 				<h2>Child Component 2</h2>
-				<p onClick={() => setSelectedOption(2)}>Option 2</p>
+				<button onClick={() => setSelectedOption(2)}>Option 2</button>
 			</div>
 			<br />
-			<div>
+			<p>
 				Selected Option:{" "}
 				{selectedOption && <span>Option {selectedOption}</span>}
-			</div>
+			</p>
 		</div>
 	);
 };
